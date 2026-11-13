@@ -1,0 +1,428 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RAUDDI MOTORS: descubre una colección exclusiva de vehículos deportivos y de lujo.">
+    <title>RAUDDI MOTORS | Luxury Automotive</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- PRELOADER -->
+    <div class="loader" id="loader">
+        <h1>RAUDDI <span>MOTORS</span></h1>
+        <div class="loader-line"></div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <a href="#inicio" class="logo">
+            RAUDDI<span>MOTORS</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="navigation" id="navigation">
+            <a href="#inicio">INICIO</a>
+            <a href="#vehiculos">VEHÍCULOS</a>
+            <a href="#marcas">MARCAS</a>
+            <a href="#servicios">SERVICIOS</a>
+            <a href="#nosotros">NOSOTROS</a>
+            <a href="#contacto" class="nav-contact">CONTACTO ↗</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" id="inicio">
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content reveal">
+                <p class="eyebrow">EXCLUSIVE AUTOMOTIVE EXPERIENCE</p>
+
+                <h1>
+                    EL ARTE DE<br>
+                    CONDUCIR <span>EL ÉXITO.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Descubre una colección extraordinaria de vehículos
+                    deportivos, elegancia y tecnología de alto rendimiento.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#vehiculos" class="btn btn-gold">
+                        EXPLORAR VEHÍCULOS ↗
+                    </a>
+
+                    <a href="#nosotros" class="btn btn-outline">
+                        DESCUBRIR MÁS
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-bottom">
+                <span>PRECISIÓN · POTENCIA · EXCLUSIVIDAD</span>
+                <span>01 / 05</span>
+            </div>
+
+            <a href="#vehiculos" class="scroll-indicator">
+                DESLIZA PARA DESCUBRIR ↓
+            </a>
+        </section>
+
+        <!-- INTRODUCTION -->
+        <section class="intro section-padding">
+            <div class="intro-number">01 — RAUDDI MOTORS</div>
+
+            <div class="intro-content reveal">
+                <p class="eyebrow">MÁS QUE UN AUTOMÓVIL</p>
+                <h2>
+                    UNA EXPERIENCIA<br>
+                    <span>SIN LÍMITES.</span>
+                </h2>
+                <p>
+                    En RAUDDI MOTORS creemos que conducir es mucho más
+                    que desplazarse. Es expresar personalidad, disfrutar
+                    la ingeniería y experimentar la emoción de cada recorrido.
+                </p>
+            </div>
+
+            <div class="intro-statistics">
+                <div>
+                    <strong>25+</strong>
+                    <span>MODELOS EXCLUSIVOS</span>
+                </div>
+                <div>
+                    <strong>10+</strong>
+                    <span>MARCAS PREMIUM</span>
+                </div>
+                <div>
+                    <strong>100%</strong>
+                    <span>ATENCIÓN PERSONALIZADA</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- VEHICLES -->
+        <section class="vehicles section-padding" id="vehiculos">
+            <div class="section-heading reveal">
+                <div>
+                    <p class="eyebrow">NUESTRA COLECCIÓN</p>
+                    <h2>VEHÍCULOS <span>DESTACADOS.</span></h2>
+                </div>
+                <p>
+                    Ingeniería extraordinaria. Diseños únicos.
+                    Máximo rendimiento.
+                </p>
+            </div>
+
+            <div class="filters" id="filters">
+                <button class="filter-btn active" data-filter="todos">TODOS</button>
+                <button class="filter-btn" data-filter="lamborghini">LAMBORGHINI</button>
+                <button class="filter-btn" data-filter="ferrari">FERRARI</button>
+                <button class="filter-btn" data-filter="porsche">PORSCHE</button>
+                <button class="filter-btn" data-filter="mclaren">MCLAREN</button>
+            </div>
+
+            <div class="vehicle-grid">
+
+                <article class="vehicle-card reveal" data-brand="lamborghini">
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=1000&q=85" alt="Automóvil deportivo Lamborghini">
+                        <span class="vehicle-tag">EXCLUSIVO</span>
+                    </div>
+                    <div class="vehicle-info">
+                        <div>
+                            <span class="vehicle-brand">LAMBORGHINI</span>
+                            <h3>Huracán</h3>
+                        </div>
+                        <span class="vehicle-year">2024</span>
+                    </div>
+                    <p class="vehicle-description">Diseño italiano y rendimiento extraordinario.</p>
+                    <a href="#contacto" class="vehicle-link">SOLICITAR INFORMACIÓN ↗</a>
+                </article>
+
+                <article class="vehicle-card reveal" data-brand="ferrari">
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=crop&w=1000&q=85" alt="Automóvil deportivo Ferrari">
+                        <span class="vehicle-tag">DESTACADO</span>
+                    </div>
+                    <div class="vehicle-info">
+                        <div>
+                            <span class="vehicle-brand">FERRARI</span>
+                            <h3>296 GTB</h3>
+                        </div>
+                        <span class="vehicle-year">2024</span>
+                    </div>
+                    <p class="vehicle-description">Innovación, velocidad y elegancia italiana.</p>
+                    <a href="#contacto" class="vehicle-link">SOLICITAR INFORMACIÓN ↗</a>
+                </article>
+
+                <article class="vehicle-card reveal" data-brand="porsche">
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1000&q=85" alt="Porsche deportivo">
+                        <span class="vehicle-tag">SPORT</span>
+                    </div>
+                    <div class="vehicle-info">
+                        <div>
+                            <span class="vehicle-brand">PORSCHE</span>
+                            <h3>911 Carrera</h3>
+                        </div>
+                        <span class="vehicle-year">2025</span>
+                    </div>
+                    <p class="vehicle-description">Un clásico reinterpretado para el futuro.</p>
+                    <a href="#contacto" class="vehicle-link">SOLICITAR INFORMACIÓN ↗</a>
+                </article>
+
+                <article class="vehicle-card reveal" data-brand="mclaren">
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1621135802920-133df287f89c?auto=format&fit=crop&w=1000&q=85" alt="Superdeportivo McLaren">
+                        <span class="vehicle-tag">PREMIUM</span>
+                    </div>
+                    <div class="vehicle-info">
+                        <div>
+                            <span class="vehicle-brand">MCLAREN</span>
+                            <h3>720S</h3>
+                        </div>
+                        <span class="vehicle-year">2024</span>
+                    </div>
+                    <p class="vehicle-description">Tecnología de competición y aerodinámica.</p>
+                    <a href="#contacto" class="vehicle-link">SOLICITAR INFORMACIÓN ↗</a>
+                </article>
+
+                <article class="vehicle-card reveal" data-brand="lamborghini">
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=1000&q=85" alt="Automóvil de lujo deportivo">
+                        <span class="vehicle-tag">COLECCIÓN</span>
+                    </div>
+                    <div class="vehicle-info">
+                        <div>
+                            <span class="vehicle-brand">LAMBORGHINI</span>
+                            <h3>Aventador</h3>
+                        </div>
+                        <span class="vehicle-year">2023</span>
+                    </div>
+                    <p class="vehicle-description">Presencia imponente y potencia excepcional.</p>
+                    <a href="#contacto" class="vehicle-link">SOLICITAR INFORMACIÓN ↗</a>
+                </article>
+
+                <article class="vehicle-card reveal" data-brand="ferrari">
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=1000&q=85" alt="Ferrari deportivo de colección">
+                        <span class="vehicle-tag">EXCLUSIVO</span>
+                    </div>
+                    <div class="vehicle-info">
+                        <div>
+                            <span class="vehicle-brand">FERRARI</span>
+                            <h3>F8 Tributo</h3>
+                        </div>
+                        <span class="vehicle-year">2023</span>
+                    </div>
+                    <p class="vehicle-description">Una combinación de tradición y potencia.</p>
+                    <a href="#contacto" class="vehicle-link">SOLICITAR INFORMACIÓN ↗</a>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- FEATURE -->
+        <section class="feature">
+            <div class="feature-content reveal">
+                <p class="eyebrow">THE NEXT LEVEL OF DRIVING</p>
+                <h2>NO SIGAS EL CAMINO.<br><span>DEFINE TU PROPIO.</span></h2>
+                <p>
+                    Cada vehículo representa una combinación de diseño,
+                    ingeniería y personalidad.
+                </p>
+                <a href="#contacto" class="btn btn-gold">VIVE LA EXPERIENCIA ↗</a>
+            </div>
+        </section>
+
+        <!-- BRANDS -->
+        <section class="brands section-padding" id="marcas">
+            <div class="section-heading reveal">
+                <div>
+                    <p class="eyebrow">MARCAS QUE REPRESENTAMOS</p>
+                    <h2>EL PRESTIGIO <span>TIENE NOMBRE.</span></h2>
+                </div>
+            </div>
+
+            <div class="brand-grid">
+                <div>LAMBORGHINI</div>
+                <div>FERRARI</div>
+                <div>PORSCHE</div>
+                <div>MCLAREN</div>
+                <div>BMW</div>
+                <div>MERCEDES-BENZ</div>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="services section-padding" id="servicios">
+            <div class="section-heading reveal">
+                <div>
+                    <p class="eyebrow">ATENCIÓN EXCLUSIVA</p>
+                    <h2>SERVICIOS <span>PREMIUM.</span></h2>
+                </div>
+                <p>Te acompañamos en cada etapa de tu experiencia automotriz.</p>
+            </div>
+
+            <div class="service-grid">
+                <article class="service-card reveal">
+                    <span>01</span>
+                    <div class="service-icon">◇</div>
+                    <h3>ASESORÍA PERSONALIZADA</h3>
+                    <p>Te ayudamos a encontrar el vehículo que mejor represente tus gustos y necesidades.</p>
+                </article>
+
+                <article class="service-card reveal">
+                    <span>02</span>
+                    <div class="service-icon">◈</div>
+                    <h3>FINANCIAMIENTO</h3>
+                    <p>Orientación sobre alternativas de financiamiento para facilitar tu adquisición.</p>
+                </article>
+
+                <article class="service-card reveal">
+                    <span>03</span>
+                    <div class="service-icon">✧</div>
+                    <h3>MANTENIMIENTO</h3>
+                    <p>Orientación para el cuidado y mantenimiento de vehículos de alta gama.</p>
+                </article>
+
+                <article class="service-card reveal">
+                    <span>04</span>
+                    <div class="service-icon">◎</div>
+                    <h3>EXPERIENCIA EXCLUSIVA</h3>
+                    <p>Atención cercana y acompañamiento durante el proceso de selección.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about section-padding" id="nosotros">
+            <div class="about-image reveal">
+                <img src="https://images.unsplash.com/photo-1489824904134-891ab64532f1?auto=format&fit=crop&w=1200&q=85" alt="Vehículo deportivo en carretera">
+                <div class="about-image-label">RAUDDI MOTORS — EXCELLENCE</div>
+            </div>
+
+            <div class="about-content reveal">
+                <p class="eyebrow">CONOCE NUESTRA ESENCIA</p>
+                <h2>LA EXCELENCIA<br>NO ES UNA OPCIÓN.<br><span>ES NUESTRA IDENTIDAD.</span></h2>
+
+                <p>
+                    RAUDDI MOTORS nace con la visión de ofrecer una
+                    experiencia diferente en el mundo automotriz.
+                </p>
+
+                <p>
+                    Nuestro enfoque combina exclusividad, atención
+                    personalizada y pasión por los vehículos de alto
+                    rendimiento.
+                </p>
+
+                <a href="#contacto" class="text-link">CONOCE NUESTRA PROPUESTA ↗</a>
+            </div>
+        </section>
+
+        <!-- GALLERY -->
+        <section class="gallery section-padding">
+            <div class="section-heading reveal">
+                <div>
+                    <p class="eyebrow">PASIÓN POR LOS DETALLES</p>
+                    <h2>EL MUNDO <span>RAUDDI.</span></h2>
+                </div>
+            </div>
+
+            <div class="gallery-grid">
+                <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1000&q=85" alt="Vehículo deportivo">
+                <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=1000&q=85" alt="Automóvil de lujo">
+                <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1000&q=85" alt="Vehículo premium">
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact section-padding" id="contacto">
+            <div class="contact-info reveal">
+                <p class="eyebrow">ESTAMOS PARA AYUDARTE</p>
+                <h2>EL PRÓXIMO<br>GRAN VIAJE<br><span>COMIENZA AQUÍ.</span></h2>
+                <p>
+                    ¿Buscas un vehículo exclusivo? Escríbenos y
+                    nuestro equipo te orientará.
+                </p>
+
+                <div class="contact-detail">
+                    <span>MARCA</span>
+                    <strong>RAUDDI MOTORS</strong>
+                </div>
+                <div class="contact-detail">
+                    <span>ATENCIÓN</span>
+                    <strong>ASESORÍA PERSONALIZADA</strong>
+                </div>
+                <div class="contact-detail">
+                    <span>UBICACIÓN</span>
+                    <strong>REPÚBLICA DOMINICANA</strong>
+                </div>
+            </div>
+
+            <form class="contact-form reveal" id="contactForm">
+                <h3>SOLICITA INFORMACIÓN</h3>
+
+                <label for="name">Nombre completo</label>
+                <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required>
+
+                <label for="vehicle">Vehículo de interés</label>
+                <select id="vehicle" name="vehicle" required>
+                    <option value="">Selecciona un modelo</option>
+                    <option>Lamborghini Huracán</option>
+                    <option>Ferrari 296 GTB</option>
+                    <option>Porsche 911 Carrera</option>
+                    <option>McLaren 720S</option>
+                    <option>Otro vehículo</option>
+                </select>
+
+                <label for="message">Mensaje</label>
+                <textarea id="message" name="message" rows="4" placeholder="Cuéntanos qué vehículo buscas..."></textarea>
+
+                <button type="submit" class="btn btn-gold form-button">
+                    ENVIAR SOLICITUD ↗
+                </button>
+
+                <p class="form-notice" id="formNotice" aria-live="polite"></p>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-main">
+            <a href="#inicio" class="logo footer-logo">RAUDDI<span>MOTORS</span></a>
+            <p>EL ARTE DE CONDUCIR EL ÉXITO.</p>
+            <a href="#inicio" class="back-top">VOLVER ARRIBA ↑</a>
+        </div>
+
+        <div class="footer-bottom">
+            <span>© 2026 RAUDDI MOTORS. TODOS LOS DERECHOS RESERVADOS.</span>
+            <span>DESIGNED WITH PASSION.</span>
+        </div>
+    </footer>
+
+    <script src="js.js"></script>
+</body>
+</html>
